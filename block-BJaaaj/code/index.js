@@ -3,6 +3,18 @@
 let firstName = "Arya";
 let lastName = "Stark";
 
+firstName = "john";
+lastName = `Snow`;
+
+const fullName = firstName + " " + lastName;
+
+let name = `johnhoro`;
+let newUser = `johnhoro`;
+let isAdmin = `true`;
+
+alert(name);
+alert(newUser);
+alert(isAdmin);
 // Do the following:
 
 // Alert the value of the firstName.
@@ -18,10 +30,19 @@ let lastName = "Stark";
 // Set the value of `isAdmin` to `true`.
 // Alert the values of all the three variables.
 
+alert(firstName);
+alert(lastName);
+alert(fullName);
 // Assignment and re-assignment
 
 var wiseMan = "Tyrion Lannister";
 
+wiseMan = "Samwell Tarly";
+var userName = "Lysa Arryn";
+var oddNumber = `57`;
+oddNumber = `61`;
+alert(wiseMan);
+alert(oddNumber);
 // Follow instructions and do the following. In case of an error write the error in comment
 
 // Reassign the value of `wiseMan` to "Samwell Tarly"
@@ -35,6 +56,14 @@ let amount = 4280;
 
 // Using mathematical operations find the solutions. `(+, -, \*, / , etc.)`
 
+var reducedAmount = amount - 24;
+var addedAmount = amount + 32;
+var multipleAmount = amount * 7;
+var dividedAmount = amount / 57;
+alert(reducedAmount);
+alert(addedAmount);
+alert(multipleAmount);
+alert(dividedAmount);
 // Declare a new variable `reducedAmount`. In it store the value that is 24 less than the value of amount.
 // Declare another variable `addedAmount`. It's value should be 32 more than the value of amount.
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
