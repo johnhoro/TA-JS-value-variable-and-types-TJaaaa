@@ -11,28 +11,27 @@ for (let i = 1; i <= 10; i = i + 1) {
 // Using `console.log` log all the evan values from 1 to 10.
 for (let i = 1; i <= 10; i = i + 1) {
   if (i % 2 == 0) {
-    console.log(i);
+    console.log(i, `even`);
   }
 }
 
 // Using `console.log` log all the od values from 1 to 10.
 for (let i = 1; i <= 10; i = i + 1) {
   if (i % 2 !== 0) {
-    console.log(i);
+    console.log(i, `odd`);
   }
 }
 
 // Calculate the sum of all numbers from 1 to 10.
-let a,
-  sum = 0;
+let sum = 0;
 for (let a = 1; a <= 10; a++) {
-  sum = sum + a;
-  console.log(sum);
+  sum += a;
 }
+console.log(sum);
 
 // Log all the values from 1 to 10 using while loop
 
-let i = 0;
+let i = 1;
 while (i <= 10) {
   console.log(i);
   i = i + 1;
